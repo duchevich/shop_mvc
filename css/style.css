@@ -1,0 +1,134 @@
+/* ________GENERALS________ */
+body{
+	background: #CFD3D1;
+	height: 100vh;
+}
+header, nav, main, .footer, hr{
+	width: 1170px;
+	margin: 0 auto;
+}
+header, nav{
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+	text-align: center;
+}
+/* ________HEADER________ */
+header{
+	padding: 10px;
+	background: #4A2872;
+	color: white;
+}
+.header h1{
+	margin: 0;
+}
+.languages{
+	display: flex;
+	height: 45px;
+}
+.flag{
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-left: 5px;
+}
+.flag:hover{
+	margin-left: 2px;
+	width: 43px;
+	height: 43px;
+}
+.ru{
+	background: url(../img/russia-flag.png);
+}
+.ua{
+	background: url(../img/ukraine-flag.png);
+}
+.en{
+	background: url(../img/united-kingdom-flag.png);
+}
+.ru, .ua, .en{
+	background-size: cover;
+}
+
+/* ________NAV________ */
+nav{
+	background: #8C8B8C;
+}
+.menu{
+	display: flex;
+}
+.menu>a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+}
+.menu>a:hover{
+	background: #CDCBCF;
+	color: black;
+
+}
+.menu>a.active{
+	background: #FFFFFA;
+	color: black;
+}
+/* ________MAIN________ */
+.hello{
+	text-align: right;
+}
+.line{
+	width: 1170px;
+	margin: 0 auto;
+	background: #29744C;
+	height: 5px;
+}
+main{
+	background: #FFFBFA;
+	padding: 30px;
+	min-height: 85%;
+	//display: block;
+	overflow: hidden;
+}
+.form{
+	display: flex;
+	justify-content: center;
+}
+input{
+	display: block;
+	outline:none;
+}
+.input{
+	//margin-top: 15px;
+	width: 300px;
+	border: none;
+	border-bottom: 2px solid #8C8B8C;
+	//padding: 5px;
+}
+.submit{
+	width: 100%;
+	margin-top: 50px;
+	height: 35px;
+	border: none;
+	border-bottom: 2px solid #8C8B8C;
+}
+.submit:active{
+	background: #8E8F8E;
+	color: #FFFFFA;
+}
+/* ________FOOTER________ */
+footer{
+	position: fixed;
+	//background: #8C4631;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.footer{
+	padding: 10px;
+	background: #8C4631;
+	text-align: center;
+	color: white;
+}
+
